@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="JsonDoc" Id="{edb7528a-1380-40a8-88f3-b0f3e1ae966f}">
+    <Declaration><![CDATA[TYPE
+   JsonDoc : STRING(5000);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

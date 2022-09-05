@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="ST_InputStatus" Id="{21a2204b-8d19-4bee-87e4-6758223f4592}">
+    <Declaration><![CDATA[{attribute 'pack_mode' := '1'}
+TYPE ST_InputStatus :
+STRUCT
+	T602_Platten_PSU : Wordentec_Serial.stTdkPsuStatus;
+   T603_Source_PSU : Wordentec_Serial.stTdkPsuStatus;
+   T606_Ch_1_Shutter_1_Open : BOOL;
+   T606_Ch_2_Shutter_1_Closed : BOOL;
+   T606_Ch_3_Bypass_Valve_Open : BOOL;
+   T606_Ch_4_Bypass_Valve_Closed : BOOL;
+   T607_Ch_1_Mains_OK : BOOL;
+   T607_Ch_2_Spare : BOOL;
+   T607_Ch_3_Spare : BOOL;
+   T607_Ch_4_Spare : BOOL;
+   T608_Ch_1_Shutter_1_Source_Baff : BOOL;
+   T608_Ch_2_Shutter_2_Crystal : BOOL;
+   T608_Ch_3_Purge_Valve : BOOL;
+   T608_Ch_4_Bypass_Pump_Valve : BOOL;
+   T614_Ch_1_Chamber_Water : ST_AnalogueValueWithBinaryStatus;
+   T614_Ch_2_Water_In : ST_AnalogueValueWithBinaryStatus;
+   T614_Ch_3_Water_Out : ST_AnalogueValueWithBinaryStatus;
+   T614_Ch_4_Spare : ST_AnalogueValueWithBinaryStatus;
+   T615_Ch_1_Platten_Temp : ST_AnalogueValueWithBinaryStatus;
+   T615_Ch_2_Jig_Temperature : ST_AnalogueValueWithBinaryStatus;
+   T615_Ch_3_spare : ST_AnalogueValueWithBinaryStatus;
+   T615_Ch_4_spare : ST_AnalogueValueWithBinaryStatus;
+   T616_Ch_1_Air_Pressure : ST_AnalogueValueWithBinaryStatus;
+   T616_Ch_2_Water_Pressure : ST_AnalogueValueWithBinaryStatus;
+   T617_Ch_1_Baratron_Pressure : ST_AnalogueValueWithBinaryStatus;
+   T617_Ch_2_Nitorgen_Pressure : ST_AnalogueValueWithBinaryStatus;
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="ST_OutputStatus" Id="{8e0d9c99-754b-457a-8fcf-7a31e6d8d139}">
+    <Declaration><![CDATA[{attribute 'pack_mode' := '1'}
+TYPE ST_OutputStatus :
+STRUCT
+   T609_Ch_1_Platten_Heat_2K10 : Wordentec_Common.stDO_Status;
+   T609_Ch_2_Platten_Cool_2K11 : Wordentec_Common.stDO_Status;
+   T609_Ch_3_Source_1_2K12 : Wordentec_Common.stDO_Status;
+   T609_Ch_4_Baratron_Isolation_Valve : Wordentec_Common.stDO_Status;
+   T610_Ch_1_Is_Pumping_Light : Wordentec_Common.stDO_Status;
+   T610_Ch_2_Has_a_fault_light : Wordentec_Common.stDO_Status;
+   T610_Ch_3_Process_End_Light : Wordentec_Common.stDO_Status;
+   T610_Ch_4_Is_Heating_Light : Wordentec_Common.stDO_Status;
+	T611_Ch_1_Spare : Wordentec_Common.stDO_Status;
+   T611_Ch_2_Spare : Wordentec_Common.stDO_Status;
+   T611_Ch_3_Spare : Wordentec_Common.stDO_Status;
+   T611_Ch_4_Spare : Wordentec_Common.stDO_Status;
+   T612_Ch_1_Spare : Wordentec_Common.stDO_Status;
+   T612_Ch_2_Spare : Wordentec_Common.stDO_Status;
+   T613_Ch_1_Process_Rst_NO : Wordentec_Common.stDO_Status;
+   T613_Ch_2_Process_Off_NC : Wordentec_Common.stDO_Status;
+	T618_Ch_1_Spare : ST_AnalogueValueWithBinaryStatus;
+   T618_Ch_2_Spare : ST_AnalogueValueWithBinaryStatus;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

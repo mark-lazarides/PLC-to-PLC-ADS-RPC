@@ -18,7 +18,7 @@
 			</SubItem>
 		</DataType>
 	</DataTypes>
-	<Project ProjectGUID="{CA95FCE4-4CD8-40F6-9796-F720C7D380F5}" TargetNetId="192.168.10.111.1.1" Target64Bit="true" ShowHideConfigurations="#x3c7">
+	<Project ProjectGUID="{CA95FCE4-4CD8-40F6-9796-F720C7D380F5}" TargetNetId="192.168.10.111.1.1" Target64Bit="true" Utf8Encoding="true" ShowHideConfigurations="#x3c7">
 		<System>
 			<Settings MaxCpus="4">
 				<Cpu CpuId="3"/>

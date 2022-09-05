@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="ST_AnalogueValueWithBinaryStatus" Id="{357285cb-bfb4-426b-a8a1-75f1333f3bb3}">
+    <Declaration><![CDATA[{attribute 'pack_mode' = '1'}
+TYPE ST_AnalogueValueWithBinaryStatus :
+STRUCT
+	Value : REAL;
+	BinaryStatus : BOOL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
